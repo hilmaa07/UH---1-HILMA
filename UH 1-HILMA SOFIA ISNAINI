@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Biodata Saya</h1>
+    <header>
+        <h1>Informasi Pribadi</h1>
+        <img src="img/img 1.png" width="100px" height="100px">
+        <nav>
+            <ul>
+               <a href="#Nama Lengkap"></a></li>
+                <a href="Pendidikan"></a></li>
+                <a href="Pengalaman Kerja"></a></li>
+                <a href="Keterampilan"></a></li>
+               <a href="Kontak"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    </section>
+    <section id="Nama Lengkap">
+        <h4>nama lengkap</h4>
+        <p>Hilma Sofia Isnaini</p>
+    </section>
+
+    <section id="pendidikan">
+        <h3>Pendidikan</h3>
+        <p>Sarjana Teknologi Informasi</p>
+    </section>
+
+    <section id="pengalaman kerja">
+        <h3>Pengalaman Kerja</h3>
+        <p>Software Developer di X</p>
+    </section>
+
+    <section id="keterampilan">
+        <h3>Keterampilan</h3>
+        <p>HTML,CSS,JavaScript,Phyton</p>
+    </section>
+
+    <section id="kontak">
+        <h3>Kontak</h3>
+        <p>hilmaa@spacex.com</p>
+    </section>
+
+    <h1>Daftar Pengalaman Kerja</h1>
+
+    <table>
+        <tr>
+            <th>Posisi</th>
+            <th>Perusahaan</th>
+            <th>Durasi</th>
+        </tr>
+
+        <tr>
+            <td>CEO</td>
+            <td>TESLA Corp</td>
+            <td>2015-sekarang</td>
+        </tr>
+
+        <tr>
+            <td>Senior Developer</td>
+            <td>SpaceX</td>
+            <td>2018-2019</td>
+        </tr>
+
+        <tr>
+            <td>Engineering</td>
+            <td>Open AI</td>
+            <td>2017-2018</td>
+        </tr>
+    </table>
+
+
+    <style>
+       header {
+            font-family: arial,sans-serif;
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+       }
+
+       section {
+        text-align: center;
+       }
+
+       img {
+         border-radius: 100%;
+         margin-top: 5px;
+         padding-top: 5px;
+       }
+
+       table {
+         border-collapse: 5px ;
+
+       }
+    </style>
+</body>
+</html>
